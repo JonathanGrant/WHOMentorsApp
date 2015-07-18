@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38E0F4841B5A00C40079589A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0F4831B5A00C40079589A /* AppDelegate.swift */; };
+		38E0F4861B5A00C40079589A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0F4851B5A00C40079589A /* ViewController.swift */; };
+		38E0F4891B5A00C40079589A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0F4871B5A00C40079589A /* Main.storyboard */; };
+		38E0F48B1B5A00C40079589A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38E0F48A1B5A00C40079589A /* Assets.xcassets */; };
+		38E0F48E1B5A00C40079589A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0F48C1B5A00C40079589A /* LaunchScreen.storyboard */; };
+		38E0F4991B5A00C40079589A /* WHOMentorsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0F4981B5A00C40079589A /* WHOMentorsAppTests.swift */; };
+		38E0F4A41B5A00C40079589A /* WHOMentorsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0F4A31B5A00C40079589A /* WHOMentorsAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38E0F4951B5A00C40079589A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E0F4781B5A00C40079589A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E0F47F1B5A00C40079589A;
+			remoteInfo = WHOMentorsApp;
+		};
+		38E0F4A01B5A00C40079589A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38E0F4781B5A00C40079589A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38E0F47F1B5A00C40079589A;
+			remoteInfo = WHOMentorsApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38E0F4801B5A00C40079589A /* WHOMentorsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHOMentorsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E0F4831B5A00C40079589A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38E0F4851B5A00C40079589A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38E0F4881B5A00C40079589A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38E0F48A1B5A00C40079589A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38E0F48D1B5A00C40079589A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38E0F48F1B5A00C40079589A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E0F4941B5A00C40079589A /* WHOMentorsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHOMentorsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E0F4981B5A00C40079589A /* WHOMentorsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHOMentorsAppTests.swift; sourceTree = "<group>"; };
+		38E0F49A1B5A00C40079589A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E0F49F1B5A00C40079589A /* WHOMentorsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHOMentorsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38E0F4A31B5A00C40079589A /* WHOMentorsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHOMentorsAppUITests.swift; sourceTree = "<group>"; };
+		38E0F4A51B5A00C40079589A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38E0F47D1B5A00C40079589A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E0F4911B5A00C40079589A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E0F49C1B5A00C40079589A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E0F4771B5A00C40079589A = {
+			isa = PBXGroup;
+			children = (
+				38E0F4821B5A00C40079589A /* WHOMentorsApp */,
+				38E0F4971B5A00C40079589A /* WHOMentorsAppTests */,
+				38E0F4A21B5A00C40079589A /* WHOMentorsAppUITests */,
+				38E0F4811B5A00C40079589A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38E0F4811B5A00C40079589A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38E0F4801B5A00C40079589A /* WHOMentorsApp.app */,
+				38E0F4941B5A00C40079589A /* WHOMentorsAppTests.xctest */,
+				38E0F49F1B5A00C40079589A /* WHOMentorsAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38E0F4821B5A00C40079589A /* WHOMentorsApp */ = {
+			isa = PBXGroup;
+			children = (
+				38E0F4831B5A00C40079589A /* AppDelegate.swift */,
+				38E0F4851B5A00C40079589A /* ViewController.swift */,
+				38E0F4871B5A00C40079589A /* Main.storyboard */,
+				38E0F48A1B5A00C40079589A /* Assets.xcassets */,
+				38E0F48C1B5A00C40079589A /* LaunchScreen.storyboard */,
+				38E0F48F1B5A00C40079589A /* Info.plist */,
+			);
+			path = WHOMentorsApp;
+			sourceTree = "<group>";
+		};
+		38E0F4971B5A00C40079589A /* WHOMentorsAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				38E0F4981B5A00C40079589A /* WHOMentorsAppTests.swift */,
+				38E0F49A1B5A00C40079589A /* Info.plist */,
+			);
+			path = WHOMentorsAppTests;
+			sourceTree = "<group>";
+		};
+		38E0F4A21B5A00C40079589A /* WHOMentorsAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38E0F4A31B5A00C40079589A /* WHOMentorsAppUITests.swift */,
+				38E0F4A51B5A00C40079589A /* Info.plist */,
+			);
+			path = WHOMentorsAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38E0F47F1B5A00C40079589A /* WHOMentorsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E0F4A81B5A00C40079589A /* Build configuration list for PBXNativeTarget "WHOMentorsApp" */;
+			buildPhases = (
+				38E0F47C1B5A00C40079589A /* Sources */,
+				38E0F47D1B5A00C40079589A /* Frameworks */,
+				38E0F47E1B5A00C40079589A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHOMentorsApp;
+			productName = WHOMentorsApp;
+			productReference = 38E0F4801B5A00C40079589A /* WHOMentorsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38E0F4931B5A00C40079589A /* WHOMentorsAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E0F4AB1B5A00C40079589A /* Build configuration list for PBXNativeTarget "WHOMentorsAppTests" */;
+			buildPhases = (
+				38E0F4901B5A00C40079589A /* Sources */,
+				38E0F4911B5A00C40079589A /* Frameworks */,
+				38E0F4921B5A00C40079589A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E0F4961B5A00C40079589A /* PBXTargetDependency */,
+			);
+			name = WHOMentorsAppTests;
+			productName = WHOMentorsAppTests;
+			productReference = 38E0F4941B5A00C40079589A /* WHOMentorsAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38E0F49E1B5A00C40079589A /* WHOMentorsAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38E0F4AE1B5A00C40079589A /* Build configuration list for PBXNativeTarget "WHOMentorsAppUITests" */;
+			buildPhases = (
+				38E0F49B1B5A00C40079589A /* Sources */,
+				38E0F49C1B5A00C40079589A /* Frameworks */,
+				38E0F49D1B5A00C40079589A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E0F4A11B5A00C40079589A /* PBXTargetDependency */,
+			);
+			name = WHOMentorsAppUITests;
+			productName = WHOMentorsAppUITests;
+			productReference = 38E0F49F1B5A00C40079589A /* WHOMentorsAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38E0F4781B5A00C40079589A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jonathan Grant";
+				TargetAttributes = {
+					38E0F47F1B5A00C40079589A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					38E0F4931B5A00C40079589A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 38E0F47F1B5A00C40079589A;
+					};
+					38E0F49E1B5A00C40079589A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 38E0F47F1B5A00C40079589A;
+					};
+				};
+			};
+			buildConfigurationList = 38E0F47B1B5A00C40079589A /* Build configuration list for PBXProject "WHOMentorsApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38E0F4771B5A00C40079589A;
+			productRefGroup = 38E0F4811B5A00C40079589A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38E0F47F1B5A00C40079589A /* WHOMentorsApp */,
+				38E0F4931B5A00C40079589A /* WHOMentorsAppTests */,
+				38E0F49E1B5A00C40079589A /* WHOMentorsAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38E0F47E1B5A00C40079589A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E0F48E1B5A00C40079589A /* LaunchScreen.storyboard in Resources */,
+				38E0F48B1B5A00C40079589A /* Assets.xcassets in Resources */,
+				38E0F4891B5A00C40079589A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E0F4921B5A00C40079589A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E0F49D1B5A00C40079589A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38E0F47C1B5A00C40079589A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E0F4861B5A00C40079589A /* ViewController.swift in Sources */,
+				38E0F4841B5A00C40079589A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E0F4901B5A00C40079589A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E0F4991B5A00C40079589A /* WHOMentorsAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38E0F49B1B5A00C40079589A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38E0F4A41B5A00C40079589A /* WHOMentorsAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38E0F4961B5A00C40079589A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E0F47F1B5A00C40079589A /* WHOMentorsApp */;
+			targetProxy = 38E0F4951B5A00C40079589A /* PBXContainerItemProxy */;
+		};
+		38E0F4A11B5A00C40079589A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38E0F47F1B5A00C40079589A /* WHOMentorsApp */;
+			targetProxy = 38E0F4A01B5A00C40079589A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38E0F4871B5A00C40079589A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E0F4881B5A00C40079589A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38E0F48C1B5A00C40079589A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38E0F48D1B5A00C40079589A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38E0F4A61B5A00C40079589A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38E0F4A71B5A00C40079589A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38E0F4A91B5A00C40079589A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WHOMentorsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhoMentors.WHOMentorsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38E0F4AA1B5A00C40079589A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WHOMentorsApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhoMentors.WHOMentorsApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38E0F4AC1B5A00C40079589A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WHOMentorsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhoMentors.WHOMentorsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHOMentorsApp.app/WHOMentorsApp";
+			};
+			name = Debug;
+		};
+		38E0F4AD1B5A00C40079589A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WHOMentorsAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhoMentors.WHOMentorsAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHOMentorsApp.app/WHOMentorsApp";
+			};
+			name = Release;
+		};
+		38E0F4AF1B5A00C40079589A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WHOMentorsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhoMentors.WHOMentorsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WHOMentorsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		38E0F4B01B5A00C40079589A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WHOMentorsAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WhoMentors.WHOMentorsAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WHOMentorsApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38E0F47B1B5A00C40079589A /* Build configuration list for PBXProject "WHOMentorsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E0F4A61B5A00C40079589A /* Debug */,
+				38E0F4A71B5A00C40079589A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38E0F4A81B5A00C40079589A /* Build configuration list for PBXNativeTarget "WHOMentorsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E0F4A91B5A00C40079589A /* Debug */,
+				38E0F4AA1B5A00C40079589A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38E0F4AB1B5A00C40079589A /* Build configuration list for PBXNativeTarget "WHOMentorsAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E0F4AC1B5A00C40079589A /* Debug */,
+				38E0F4AD1B5A00C40079589A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		38E0F4AE1B5A00C40079589A /* Build configuration list for PBXNativeTarget "WHOMentorsAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38E0F4AF1B5A00C40079589A /* Debug */,
+				38E0F4B01B5A00C40079589A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38E0F4781B5A00C40079589A /* Project object */;
+}
