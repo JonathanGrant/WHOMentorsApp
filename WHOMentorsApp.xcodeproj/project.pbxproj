@@ -14,6 +14,7 @@
 		38E0F48E1B5A00C40079589A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E0F48C1B5A00C40079589A /* LaunchScreen.storyboard */; };
 		38E0F4991B5A00C40079589A /* WHOMentorsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0F4981B5A00C40079589A /* WHOMentorsAppTests.swift */; };
 		38E0F4A41B5A00C40079589A /* WHOMentorsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E0F4A31B5A00C40079589A /* WHOMentorsAppUITests.swift */; };
+		38E0F4B21B5A077A0079589A /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E0F4B11B5A077A0079589A /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		38E0F49F1B5A00C40079589A /* WHOMentorsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHOMentorsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E0F4A31B5A00C40079589A /* WHOMentorsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WHOMentorsAppUITests.swift; sourceTree = "<group>"; };
 		38E0F4A51B5A00C40079589A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E0F4B11B5A077A0079589A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E0F4B21B5A077A0079589A /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +80,7 @@
 		38E0F4771B5A00C40079589A = {
 			isa = PBXGroup;
 			children = (
+				38E0F4B11B5A077A0079589A /* Social.framework */,
 				38E0F4821B5A00C40079589A /* WHOMentorsApp */,
 				38E0F4971B5A00C40079589A /* WHOMentorsAppTests */,
 				38E0F4A21B5A00C40079589A /* WHOMentorsAppUITests */,
