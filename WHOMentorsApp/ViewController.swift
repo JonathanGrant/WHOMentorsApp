@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 class ViewController: UIViewController {
 
@@ -41,6 +42,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func postToFacebook(sender: AnyObject) {
+        if SLComposeViewController.isAvailableForServiceType(SLServiceTypeFacebook) {
+            var facebookSheet: SLComposeViewController = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+            facebookSheet.setInitialText("Check out my sweet campaign app!")
+            self.presentViewController(facebookSheet, animated: true, completion: nil)
+        } else {
+            var myAlert = UIAlert
+        }
     }
 
 }
